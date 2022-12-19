@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero-custom-img {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.hero-text{
+    position: absolute;
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background-color: rgba(0,0,0,0.1);
+    width: 30vw;
+    padding: 2rem 2.5rem;
+    
+    
+
+}
+
+.img_profile{
+    width: 50%;
+    object-fit: cover;
+    margin: 10px auto;
+
+}
+
+.card_header{
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+.header_marker{
+    width: 100px;
+    height: 5px;
+    /* background-color: tomato; */
+    margin: 0 auto;
+}
+
+
+/* About kindergarten school start */
+.about_kindergarten_school_bg_color{
+    background-image: linear-gradient(180deg, rgba(31, 160, 5, 100%) 0%, rgb(138, 206, 50) 70%);
+    
+}
+
+/* About kindergarten school end */
+
+/* kindergarten status start */
+.kindergarten_status_bg_color{
+    background-image: linear-gradient(180deg, rgba(230, 35, 10, 0.836) 35%, rgba(255, 148, 25, 0.911) 90%); 
+}
+
+/* kindergarten status end */
+
+
+/* our school gallary section start */
+.sponsor{
+    width: 100%;
+    height: 80px;
+}
+
+/* our school gallary section end */
+
+/* footer start */
+.footer_icon{
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.footer_icon span{
+font-size: 5rem;
+} 
+
+.footer_icon, .footer_top_text{
+    color: #fff;
+}
+
+.footer_top_text{
+    margin: 1rem;
+}
+
+.footer_row_height{
+    height: 10vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.social_icon_group div{
+    padding: 0.5rem;
+    margin: 0.5rem 0.25rem;
+    cursor: pointer;
+}
+
+.facebook_icon{
+    width: 2em;
+    height: 2em;
+    background-color: #1C315E;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.twitter_icon{
+    width: 2em;
+    height: 2em;
+    background-color: #1D9BF0;
+    border-radius: 50%;
+    color: #fff;
+}
+
+
+.youtube_icon{
+    width: 2em;
+    height: 2em;
+    background-color: #FF0000;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.instagram_icon{
+    width: 2em;
+    height: 2em;
+    background-color: #262626;
+    border-radius: 50%;
+    color: #fff;
+}
+/* footer end */
